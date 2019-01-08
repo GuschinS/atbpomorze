@@ -5,10 +5,26 @@ body, html, ul {
   height: 100%;
 }
 
+/*
 @media screen and (min-width: 992px) {
     #navbarNavAltMarkup div.navbar-nav {
-    margin-left: 55%;
+    margin-left: 5%;
 }
+}
+*/
+
+a.navbar-brand {
+    margin: 0;
+    width: 62%;
+}
+
+#logo {
+    width: 10%;
+    height: 10%;
+}
+
+a.none:hover {
+    text-decoration: none;
 }
 
 .main {
@@ -17,16 +33,41 @@ body, html, ul {
     padding: 5%;
 }
 
+#map {
+        height: 350px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+.fa {
+    padding-right: 5px;
+}
+
+.social-share {
+    display: flex;
+}
+
+.social-share li {
+    padding-right: 10%;
+}
+
 .top-footer {
-    position: relative;
+/*    position: relative;*/
     color: #727272;
     background-color: #333;
 }
 
-.footer-row:first-child {
-    padding-left: 30px;
+.footer-row.row {
+margin-left: 0;
+    margin-right: 0;
 
 }
+/*
+
+.footer-row div:nth-child(4) {
+    color:aqua;
+    padding-right: 0;
+
+}
+*/
 
 div.fcol {
     padding-top: 30px;
@@ -49,5 +90,10 @@ li {
     color: #727272;
     background-color: #252525;
     height: 4em;
-    line-height:4em;
+    line-height:3em;
+}
+
+.bot-footer-right {
+    height: 60px;
+
 }
