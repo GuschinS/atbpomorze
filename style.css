@@ -89,11 +89,14 @@ li {
 .bot-footer {
     color: #727272;
     background-color: #252525;
+    padding-top: 20px;
+/*
     height: 4em;
     line-height:3em;
+*/
 }
 
 .bot-footer-right {
-    height: 60px;
+    height: 40px;
 
 }
